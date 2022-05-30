@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/970e664f-2df4-47ce-b4fa-446082f5abc1/cffcced5-0e09-4a29-beb5-ae9c4fcbec8e/BR-pt-20220523-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-size: cover;
+    background-position: top center;
+}
+
+#heading {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#heading div {
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#heading .h1 {
+    padding: 15px 0;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+#heading a {
+    color: #fff;
+    text-decoration: none;
+    font-family: sans-serif;
+}
