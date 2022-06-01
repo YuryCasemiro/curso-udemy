@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulários e Inputs parte 1</title>
+</head>
+<body>
+    <form action="#" method="get" target="_blank" autocomplete="off">
+      <p>O meu formulário</p>
+      <p>
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" placeholder="Seu nome">
+      </p>
+      <p>
+          <label for="dev1">Sou um dev</label>
+          <input type="checkbox" id="dev1" name="dev" value="sim">
+          <label for="dev2">Sou um dev</label>
+          <input type="checkbox" id="dev2" name="dev" value="sim">
+          <label for="dev3">Sou um dev</label>
+          <input type="checkbox" id="dev3" name="dev" value="sim">
+      </p>
+      <p>
+          Gênero:
+        <label for="feminino">feminino</label>
+        <input type="radio" id="feminino" name="genero" value="feminino">
+        <label for="masculino">Masculino</label>
+        <input type="radio" id="masculino" name="genero" value="masculino">
+        <label for="outros">Outros</label>
+        <input type="radio" id="outros" name="genero" value="outros">
+    </p>
+      <p>
+          <button type="submit">Enviar</button>
+          <button type="reset">Resetar</button>
+      </p>
+    </form>
+</body>
+</html>
