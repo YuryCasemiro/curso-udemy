@@ -24,3 +24,26 @@ body {
     max-width: 150px;
     padding: 50px;
 }
+
+.button {
+    background-color: #e50914;
+    border-radius: 4px;
+    line-height: normal;
+    padding: 7px 17px;
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 80%;
+}
+
+header div {
+    font-family: sans-serif;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
