@@ -1,0 +1,16 @@
+p {
+    color: blue;
+    background-color: rgb(255, 112, 112);
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
+    direction: rtl;
+    letter-spacing: 5px; /*espaçamento entre as letras*/
+    word-spacing: 15px; /*espaçamento entre as palavras*/
+    line-height: 50px; /*altura da linha*/
+    text-align: center;
+    text-decoration: underline;
+    text-indent: 100px; /*indentação do texto*/
+    text-shadow: 2px 2px pink;
+    text-transform: capitalize;
+}
