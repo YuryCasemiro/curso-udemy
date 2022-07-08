@@ -36,8 +36,12 @@ h1 {
     text-transform: uppercase;
 }
 h2 {
-    font-size: 5.5rem;
+    font-size: 6rem;
+    margin-bottom: 5rem;
+    text-transform: uppercase;
+    line-height: 1.2;
 }
+
 h3 {
     font-size: 5rem;
 }
@@ -67,6 +71,7 @@ a {
 
 .white-bg {
     background: var(--white-color);
+    color: var(--primary-color);
 }
 
 .main-content {
@@ -154,14 +159,12 @@ a {
     justify-content: center;
 }
 
-.intro-text-content h2 {
-    font-size: 6rem;
-    margin-bottom: 5rem;
-    text-transform: uppercase;
-    line-height: 1.2;
-}
-
-.intro-img img {
+.intro-img img,
+.intro-img svg {
     max-width: 100%;
     height: auto;
+}
+
+.top3-content {
+    height: 100vh;
 }
